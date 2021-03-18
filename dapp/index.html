@@ -19,7 +19,8 @@
         var vm;
         var iscvip=false;
         var hasamount=false;
-        var contract_address="请填写";
+        //var contract_address="TGRsk8yPpyk7Uz65DUxbUdm8fmh8uy7TDp";
+        var contract_address="TF9itYW9rh4NoguAmrXpPHfLDtwECAv7sC";
         $(function() {
             var html = document.documentElement;
             var hWidth = html.getBoundingClientRect().width;
@@ -80,17 +81,23 @@
                 },
                 "methods":{
                     setInput(n){
+
+                        if(n == '0'){
+                            Vue.set(vm.data, 'input_num', '0')
+                            console.log(n)
+                        }
                         Vue.set(vm.data, 'input_num', Number(vm.data.input_num)+Number(n))
                     } ,
                     getIcon(name){
                         return './images/'+name+ '.png';
                     },
                     choose_lang(index){
-
+            
                         Vue.set(vm.data, 'local_active', index);
                         Vue.set(vm.data, 'language', lan[index]);
                         $('.frame_lan').hide();
                         localStorage.setItem('local_active', index);
+                        location.reload();
                     },
 
                     onMenu(index, item){
@@ -175,6 +182,7 @@
             $('#frame_success').fadeIn();
             setTimeout(function(){
                 $('#frame_success').fadeOut();
+                location.reload();
             }, 1500);
         }
         function showError(txt){
@@ -182,6 +190,7 @@
             $('#frame_error').fadeIn();
             setTimeout(function(){
                 $('#frame_error').fadeOut();
+                location.reload();
             }, 1500);
         }
 
@@ -451,6 +460,7 @@
             $("#wait").hide();
         }
     </script>
+    <script src="js/number_animation.js"></script>
 </head>
 
 <body>
