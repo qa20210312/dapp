@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/server/vendor/composer" />
+      <path value="$PROJECT_DIR$/server/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/server/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/server/vendor/fgrosse/phpasn1" />
+      <path value="$PROJECT_DIR$/server/vendor/mdanter/ecc" />
+      <path value="$PROJECT_DIR$/server/vendor/simplito/bigint-wrapper-php" />
+      <path value="$PROJECT_DIR$/server/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/server/vendor/simplito/bn-php" />
+      <path value="$PROJECT_DIR$/server/vendor/kornrunner/secp256k1" />
+      <path value="$PROJECT_DIR$/server/vendor/simplito/elliptic-php" />
+      <path value="$PROJECT_DIR$/server/vendor/kornrunner/keccak" />
+      <path value="$PROJECT_DIR$/server/vendor/iexbase/tron-api" />
+      <path value="$PROJECT_DIR$/server/vendor/iexbase/web3.php" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+</project>

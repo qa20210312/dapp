@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/fgrosse/phpasn1" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/iexbase/tron-api" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/iexbase/web3.php" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/kornrunner/keccak" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/kornrunner/secp256k1" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/mdanter/ecc" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/simplito/bigint-wrapper-php" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/simplito/bn-php" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/simplito/elliptic-php" />
+      <excludeFolder url="file://$MODULE_DIR$/server/vendor/symfony/polyfill-mbstring" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
